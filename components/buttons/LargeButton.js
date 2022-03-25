@@ -1,7 +1,7 @@
 import React from 'react'
 import { Pressable, Text, StyleSheet } from 'react-native'
 
-const StandardButton = ({buttonText}) => {
+const LargeButton = ({buttonText}) => {
   return (
    <Pressable style={styles.btn}>
        <Text style={styles.btnTxt}>{buttonText}</Text>
@@ -26,8 +26,8 @@ const styles = StyleSheet.create({
     },
 })
 
-StandardButton.defaultProps = {
+LargeButton.defaultProps = {
     buttonText: 'Press Me',
 }
 
-export default StandardButton
+export default LargeButton
