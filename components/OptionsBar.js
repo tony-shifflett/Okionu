@@ -19,6 +19,6 @@ const styles = StyleSheet.create({
   },
   optionsText: {
       fontSize: 20,
-  }
+  },
 })
 export default OptionsBar
