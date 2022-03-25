@@ -1,10 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native'
+import Icon from 'react-native-vector-icons/dist/FontAwesome'
 
 const BackHeaderGreen = ({title}) => {
   return (
     <View style={styles.header}>
         <Text style={styles.text}>{title}</Text>
+        <Icon name="arrow-left"/>
     </View>
   )
 }
