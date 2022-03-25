@@ -6,7 +6,7 @@ import Icon from 'react-native-vector-icons/dist/FontAwesome';
 const XheaderGreen = ({title}) => {
   return (
     <View style={styles.header}>
-        <Icon name='back'/>
+        <Icon name='close'/>
         <Text style={styles.text}>{title}</Text>
     </View>
   )
