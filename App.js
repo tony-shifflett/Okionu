@@ -1,13 +1,14 @@
 import React from 'react';
 import { View } from 'react-native';
-// import GreenHeader from './components/GreenHeader'
-import LogoHeader from './components/LogoHeader';
+// import GreenHeader from './components/headers/GreenHeader'
+// import LogoHeader from './components/headers/LogoHeader';
 // import StandardButton from './components/StandardButton';
+import BackHeaderGreen from './components/headers/BackHeaderGreen';
 
 const App = () => {
   return (
     <View>
-      <LogoHeader/>
+      <BackHeaderGreen/>
     </View>
   )
 }

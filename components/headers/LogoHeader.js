@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Image, Text, StyleSheet } from 'react-native'; 
-import OptionsBar from './OptionsBar';
+import OptionsBar from '../OptionsBar';
 
 const LogoHeader = () =>{
   return (
     <View style={styles.header}>
-      <Image source={require('../assets/okionu-logo.png')} style={styles.img}/>
+      <Image source={require('../../assets/okionu-logo.png')} style={styles.img}/>
       <OptionsBar/>
     </View>
   )

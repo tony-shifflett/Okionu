@@ -9,7 +9,7 @@ const GreenHeader = ({title}) => {
   )
 }
 
-Header.defaultProps = {
+GreenHeader.defaultProps = {
     title: 'Okionu'
 }
 
